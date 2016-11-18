@@ -18,11 +18,7 @@
 					alert('Could not create card');
 				});
 		};
-		$scope.login = function() {
-			$http.post('/auth_api/login/',
-					{username: 'gradtech', password: 'p@ssw0rd'}
-					);
-		};
+
 		$scope.data = [];
 		$http.get('/scrumboard/lists/')
 			.then(function(response) {
