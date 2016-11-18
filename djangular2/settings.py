@@ -25,7 +25,7 @@ SECRET_KEY = '2-r_x1lt14pu#19q3-aq*c=690zklm)d-h0#@_a-50mef7*c%m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'scrumboard',
+    'auth_api',
 ]
 
 MIDDLEWARE = [
