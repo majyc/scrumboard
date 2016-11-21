@@ -4,3 +4,4 @@
 /manage.py
 /pip-selfcheck.json
 /pyvenv.cfg
+*.pyc
